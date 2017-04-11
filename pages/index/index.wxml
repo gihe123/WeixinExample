@@ -1,6 +1,91 @@
 <!--index.wxml-->
-<view class="page">
+<view class="page">  
     <view class="page-section">
-        
+        <test>View Demo </test>
     </view>
+
+    <view class="page-section" >
+        <view>flex-direction: row</view>
+        <view style="flex-dirction:row">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+     <view class="page-section" >
+        <view>flex-direction: column</view>
+        <view style="display:flex;">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+    <!--justify-content -->
+     <view class="page-section" >
+        <view>justify-content:flex-start</view>
+        <view style="display:flex;flex-direction: row;justify-content:flex-start">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+    <view class="page-section" >
+        <view>justify-content:flex-end</view>
+        <view style="display:flex;flex-direction: row;justify-content:flex-end">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+    <view class="page-section" >
+        <view>justify-content:center</view>
+        <view style="display:flex;flex-direction: row;justify-content:center">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+    <view class="page-section" >
+        <view>justify-content:space-between</view>
+        <view style="display:flex;flex-direction: row;justify-content:space-between;">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+    <view class="page-section" >
+        <view>justify-content:space-around</view>
+        <view style="display:flex;flex-direction: row;justify-content:space-around;">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+
+<view class="page-section" >
+        <view>align-items:flex-start</view>
+        <view style="display:flex;height:100px;flex-direction: row;justify-content:space-around;align-items:flex-start">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+
+    <view class="page-section" >
+        <view>align-items:flex-end</view>
+        <view style="display:flex;height:100px;flex-direction: row;justify-content:space-around;align-items:flex-end">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+    <view class="page-section" >
+        <view>align-items:center</view>
+        <view style="display:flex;height:100px;flex-direction: row;justify-content:space-around;align-items:center">
+            <view class="flex-item bg_green"></view>
+            <view class="flex-item bg_red"></view>
+            <view class="flex-item bg_blue"></view>
+        </view>
+    </view>
+
 </view>
